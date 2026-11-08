@@ -11,13 +11,16 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
 .logo h2{
     font-size: 45px;
     font-weight: 900;
 }
+
 .color-orange{
     color: #FD6E0A;
 }
+
 .btn{
     background-color: #FD6E0A;
     border: none;
@@ -34,11 +37,17 @@
     text-align: center;
     margin: 0 auto;
 }
+
 .section-heading h2{
     font-size: 35px;
     margin-bottom: 30px;
 
 }
+
+.center{
+    text-align: center;
+}
+
 .section-heading p{
     font-size: 18px;
     margin-bottom: 10px;
@@ -49,7 +58,7 @@
 header{
     background-color: #fff8f3;
     background: url(../images/developer.png),url(../images/header_bg.png),#fff8f3;
-    background-position: top left,bottom right;
+    background-position: 23px 38px,bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -63,12 +72,14 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
 .menu{
     display: flex;
     list-style-type: none;
     gap: 51px;
     align-items: center;
 }
+
 menu,a{
     font-size: 20px;
     color: #474747;
@@ -82,18 +93,21 @@ menu,a{
     justify-content: space-between;
     align-items: center
 }
+
 .banner-content h2{
     font-size: 45px;
     font-weight: 600;
     color: #474747;
     margin-bottom: 5px;
 }
+
 .banner-content h1{
     font-size: 75px;
     font-weight: bold;
     color:#181818;
     margin-bottom: 20px;   
 }
+
 .banner-content p{
     font-size: 18px;
     font-weight: 400;
@@ -101,6 +115,7 @@ menu,a{
     line-height: 30px;
     margin-bottom: 30px;
 }
+
 .banner-content{
     max-width: 585px;
 }
@@ -134,6 +149,7 @@ menu,a{
     line-height: 30px;
     color: #757575;
 }
+
 .about-info h4{
     font-size: 20px;
 }
@@ -156,6 +172,7 @@ menu,a{
     box-shadow: 0 6px 50px 0 #00000027;
     max-width: 267px;
 }
+
 .skill-card img{
     max-width: 44px;
     margin-bottom: 30px;
@@ -215,6 +232,50 @@ hr{
 .card-text{
     font-size: 16px;
     line-height: 28px;
+    color: #757575;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.social{
+    max-width: 512px;  
+}
+
+.footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-container p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.icons a{
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],.footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
     color: #757575;
 }
 
